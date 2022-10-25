@@ -1,0 +1,26 @@
+{
+    "name": "nwidart/newproject",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\NewProject\\": ""
+        }
+    },
+    "require": {
+        "lukascivil/treewalker": "dev-master"
+    }
+}
